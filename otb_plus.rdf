@@ -3,8 +3,6 @@
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-   xmlns:cbnlcore="http://ont.cbnl.org/cb/def/"
 >
   <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf16">
     <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
@@ -444,7 +442,6 @@
     <rdfs:range rdf:resource="http://otb.noord-holland.nl#Geluidscherm"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://otb.noord-holland.nl">
-    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf57">
