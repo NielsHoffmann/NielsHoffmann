@@ -445,7 +445,6 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://otb.noord-holland.nl">
     <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
-    <owl:imports rdf:resource="http://ont.cbnl.org/cb/def/"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf57">
