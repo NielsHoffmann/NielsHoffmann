@@ -1,0 +1,2064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:otb="http://otb.noord-holland.nl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer">
+    <rdfs:subClassOf rdf:nodeID="ub1bL1110C19"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een begrensd gedeelte van de Weg dat voldoende breed en hoog is voor Voetgangersverkeer.</skos:definition>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Autoverkeer"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.6 Wegelement Voetgangersverkeer</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Voetgangersverkeer</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Voetpad"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <rdfs:subClassOf rdf:nodeID="N85710ebef5204123b7282ca9a24aa364"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf22">
+    <rdfs:label>Openbare_Verlichting_partof_Weginpassingsvoorzieningen</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Openbare_Verlichting"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0bdf1e1e867043b8af9b9f9f8a291a68">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf41"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nec86c895078140019d86c5fd131b049b">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf30"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf33">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Element_NEN_2767-4_Schutsluis"/>
+    <rdfs:label>Bouwdeel_NEN_2767-4_Schutsluis_partof_Element_NEN_2767-4_Schutsluis</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bouwdeel_NEN_2767-4_Schutsluis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vaarwegennet">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaarwegennet</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="Ndaa85d8cf9454bc59edac9a572d3704d"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2 Vaarwegennet (traject)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Netwerk"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL825C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Actieve_markering_LED">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.2.2 Actieve markering (LED)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Markering_en_belijning"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Actieve markering (LED)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#DRIS-paneel">
+    <rdfs:subClassOf rdf:nodeID="ub1bL197C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.3.3 DRIS-paneel</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DRIS-paneel</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/DynamischRouteInformatiepaneel"/>
+    <rdfs:subClassOf rdf:nodeID="N4902c26cf6ea46ac852e3834dbd5c1b9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Belijning">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Belijning</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.2.1 Belijning</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Markering_en_belijning"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Telkast">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersteller"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.1.1 Telkast</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telkast</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nefa45da1892c4387916beae655d52f5b">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf53"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waarnemingssysteem_Wegverkeer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N94497f9adf0d411b87005ba4b2e5eb20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf33"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_NEN_2767-4_Schutsluis"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL86C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Dataverzamelsysteem">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5 Dataverzamelsysteem</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N3bc64666c6c94246b097fc930178d359"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betreft systemen ten behoeve van verkeerstelling en vorstdetectie</skos:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dataverzamelsysteem</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <rdfs:subClassOf rdf:nodeID="ub1bL209C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verkeersgeleiding">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1 Verkeersgeleiding</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkeersgeleiding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Element_Vast_kunstwerk">
+    <rdfs:subClassOf rdf:nodeID="ub1bL380C19"/>
+    <rdfs:subClassOf rdf:nodeID="N135ded4d58204f8bb49885f28525113a"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element (NEN 2767-4) Vast kunstwerk</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.2.1 Element (NEN 2767-4) Vast kunstwerk</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/VasteBrug"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL861C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf52">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Onderdelen_VRI"/>
+    <rdfs:label>Onderdelen_VRI_partof_VRI_Weg</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL410C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Oeverbeplanting">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oeverbeplanting</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL597C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Oever"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.3.2 Oeverbeplanting</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N2ed8bcc33bff42468d06c5045706a551"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf5">
+    <rdfs:label>Vaarwegennet_partof_Provinciaal_systeem</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecologische_verbindingszone">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecologische verbindingszone</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL313C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1 Ecologische verbindingszone</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N6ab319aa2fe84c93858dcc1abdd47139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Betonning">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Vaarweggeleiding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.3.1 Betonning</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betonning</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Bermsloot_greppel_partof_Waterhuishouding</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bermsloot_greppel"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Fietsverkeer">
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een begrensd gedeelte van de Weg dat voldoende breed en hoog is voor Fietsverkeer.</skos:definition>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1056C19"/>
+    <rdfs:subClassOf rdf:nodeID="N642fedf5deaf4c7f8e1eb6e2c5a0023b"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.3 Wegelement Fietsverkeer</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kennisgroep SE</skos:note>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Fietspad"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Fietsverkeer</skos:prefLabel>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Autoverkeer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Weg_partof_Wegennet</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Element_Beweegbaar_kunstwerk">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL350C19"/>
+    <rdfs:subClassOf rdf:nodeID="Nd844cec4a8964e3a969bfd0c410ad077"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.2.1 Element (NEN 2767-4) Beweegbaar kunstwerk</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element (NEN 2767-4) Beweegbaar kunstwerk</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/BeweegbareBrug"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8cd2592c83d4467b87a9eb8b06fb4ec3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf15"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf62">
+    <rdfs:label>Vaarweg_partof_Vaarwegennet</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Vaarweg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Draagconstructie_DRIS">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draagconstructie DRIS</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL242C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.3.4 Draagconstructie DRIS</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N2d79a54e374a454784718ff31c19694c"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Draagconstructie"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf16">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Geluidscherm"/>
+    <rdfs:label>Geluidscherm_partof_Weginpassingsvoorzieningen</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8f981ea5a9ba4360930d12dd8273f403">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL223C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf40">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Draagconstructie_DRIS_partof_Bushalte</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Draagconstructie_DRIS"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL445C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vast_kunstwerk">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vast kunstwerk</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.1 Vast kunstwerk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verblijfspunt_Weg">
+    <rdfs:subClassOf rdf:nodeID="ub1bL861C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4 Verblijfspunt Weg</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Functieruimte"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verblijfspunt Weg</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N5bd8be7010ef4660b551fa898231bd1f"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Element_NEN_2767-4_Oever">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element (NEN 2767-4) Oever</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.1.1 Element (NEN 2767-4) Oever</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Oever"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Lichtopstanden">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Vaarweggeleiding"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lichtopstanden</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.3.2 Lichtopstanden</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#VRI_Weg">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VRI Weg</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL795C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Verkeersregelinstallatie"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N27b82dc13a9e4e708bf39f820981e975"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.1 VRI Weg</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://www.nen2767-4.nl/element/detail/127.html"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf51">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Autoverkeer"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Wegelement_Autoverkeer_partof_Weg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Scheepvaartsein">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Seinlicht"/>
+    <rdfs:subClassOf rdf:nodeID="Ne3efb547f74448f3bdabfc72361c92a0"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scheepvaartsein</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL705C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.2 Scheepvaartsein</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N95eb9b2710954846b812ff67aa095a39">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf47"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_Beweegbaar_kunstwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_HOV">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.2.1 Wegelement Hoogwaardig Openbaar Vervoer (HOV)</rdfs:label>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kennisgroep SE</skos:note>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Hoogwaardig Openbaar Vervoer (HOV)</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een Wegelement Busverkeer bestemd voor Hoogwaardig Openbaar Vervoer (HOV)</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bermsloot_greppel">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bermsloot/greppel</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N2cfc4202ec1945d7b1d164cd5622b1c5"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL86C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Sloot"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_6.2 Bermsloot/greppel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bouwdeel_Beweegbaar_kunstwerk">
+    <rdfs:subClassOf rdf:nodeID="ub1bL129C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouwdeel (NEN 2767-4) Beweegbaar Kunstwerk</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/BeweegbareBrug"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N95eb9b2710954846b812ff67aa095a39"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.2.1.1 Bouwdeel (NEN 2767-4) Beweegbaar Kunstwerk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL260C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf58">
+    <rdfs:label>Detectielus_partof_VRI_Weg</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Detectielus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Technische_Installaties_Vaarwegen">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Technische Installaties Vaarwegen</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Installatieelement"/>
+    <rdfs:subClassOf rdf:nodeID="N31c6e007a46b4e4ca89dd89d66d63128"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL728C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1 Technische Installaties Vaarwegen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Waarnemingssysteem_Wegverkeer">
+    <rdfs:subClassOf rdf:nodeID="Nf2b5aff75c3747a3be0494d878d476e7"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Systeem"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waarnemingssysteem Wegverkeer</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.3 Waarnemingssysteem Wegverkeer</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="ub1bL964C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegverkeerssein">
+    <rdfs:subClassOf rdf:nodeID="ub1bL1153C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.3 Wegverkeerssein</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betreft de VRI voor Wegverkeer bij een Beweegbaar kunstwerk (slagboominstallatie). Is niet verbonden met Verkeerscentrale PNH.</skos:definition>
+    <rdfs:subClassOf rdf:nodeID="Need8ebe9cb4f464b8bfa4a2e9c943a6e"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegverkeerssein</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Bruglicht"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5a7e4f7041974267a52ffd0e9eb0db81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf48"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc97ffd44b8ac4e299b9d774b23390e08">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf45"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Haven">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.3.1 Haven</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Haven</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Havengebied"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf21">
+    <rdfs:label>Perron_partof_Bushalte</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Perron"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL621C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL597C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL575C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Ecotopen_partof_Ecologische_verbindingszone</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecotopen"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf14">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:label>Verblijfspunt_Weg_partof_Weg</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL209C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#relatieType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relatie type</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL849C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6ab319aa2fe84c93858dcc1abdd47139">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf55"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1 Verkeersmanagementsysteem Weg</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N7a1217775b4147f7bd088dd2e3aebdd0"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkeersmanagementsysteem Weg</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL905C19"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf2b5aff75c3747a3be0494d878d476e7">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf43"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf2">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Geluidwerende_constructie_partof_Geluidscherm</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Geluidscherm"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Geluidwerende_constructie"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Autoverkeer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Autoweg"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.1 Wegelement Autoverkeer</rdfs:label>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Autoverkeer</skos:prefLabel>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een begrensd gedeelte van de Weg dat voldoende breed en hoog is voor Autoverkeer.</skos:definition>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1020C19"/>
+    <rdfs:subClassOf rdf:nodeID="N6a2b31a673b848b5bd5afa61b1d7fb9d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bouwdeel_Vast_kunstwerk">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.2.1.1 Bouwdeel (NEN 2767-4) Vast Kunstwerk</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouwdeel (NEN 2767-4) Vast Kunstwerk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="Ncb58c40923ff4a33843c0ebe79f7f72f"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/VasteBrug"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL172C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd7022cd153dd4b5f91c13d5d395e3d33">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf57"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2d79a54e374a454784718ff31c19694c">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf40"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bouwdeel_NEN_2767-4_Schutsluis">
+    <rdfs:subClassOf rdf:nodeID="ub1bL160C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Schutsluis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouwdeel (NEN 2767-4) Schutsluis</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N94497f9adf0d411b87005ba4b2e5eb20"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.4.1.1 Bouwdeel (NEN 2767-4) Schutsluis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N04ea6d1e466e49e7b49961b66cf49c66">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf22"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Informatievoorziening_DRIP_Vaarweg">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.1 Informatievoorziening (DRIP) Vaarweg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Technische_Installaties_Vaarwegen"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Informatievoorziening (DRIP) Vaarweg</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Materieel_gladheidsbestrijding">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4.4 Materieel gladheidsbestrijding</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Materieel gladheidsbestrijding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Uitwisselpunt_Vaarweg">
+    <rdfs:subClassOf rdf:nodeID="ub1bL761C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Na8a9d2ca1b29436ba7efcccf1cf948e8"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.2 Uitwisselpunt Vaarweg</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uitwisselpunt Vaarweg</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/OntmoetingVanVerkeer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#TopCode">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TopCode</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N31c6e007a46b4e4ca89dd89d66d63128">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Energieverzorging_zonnepaneel">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.1.4 Energieverzorging (zonnepaneel)</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersteller"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Energieverzorging (zonnepaneel)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Detectielus">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detectielus</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL223C19"/>
+    <owl:equivalentClass rdf:resource="http://www.nen2767-4.nl/bouwdeel/detail/144.html"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Installatiecomponent"/>
+    <rdfs:subClassOf rdf:nodeID="N0b41237512fa4127bee43b6cc658b3cd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.1.3 Detectielus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf10">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Vast_kunstwerk"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Element_Vast_kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Element_Vast_kunstwerk_partof_Vast_kunstwerk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N44be58741a7b420f9066a445b2222ad7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf18"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf23">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Oeverbeplanting"/>
+    <rdfs:label>Oeverbeplanting_partof_Beplanting_langs_Wegen_Vaarwegen_en_Terreinen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf63">
+    <rdfs:label>Voertuigkering_partof_Weginpassingsvoorzieningen</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Voertuigkering"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Schutsluis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.4 Schutsluis</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Schutsluis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nf7405013e6b14046996d91d937f482ec"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schutsluis</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL717C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na8a9d2ca1b29436ba7efcccf1cf948e8">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Onderdelen_VRI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Bouwproduct"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onderdelen VRI</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.1.4 Onderdelen VRI</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="Nf50272ee28a4451eb4a776bb5b241193"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL609C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Oever">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.1 Oever</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oever</skos:prefLabel>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een Oevervak is de rand van een kanaal, vaarweg of rivier. Het begint bij bodem van het nautisch profiel en gaat door tot 10m achter de oeverconstructie. NB: Dit is het equivalent van Beheerobject bij Vaarwegen conform de NEN 2767-4 Decompositie. Een oevervak is ongeveer 100 meter lang en bestaat uit een uniforme oeverconstructie.</skos:definition>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie objectdefinitie BUDATA v3.4.1</skos:note>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Besturingskast_matrixpaneel_Vaarwegen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.1.4 Besturingskast (matrixpaneel) Vaarwegen</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Besturingskast (matrixpaneel) Vaarwegen</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Informatievoorziening_DRIP_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Uitwisselpunt_weg">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.3.1 Uitwisselpunt Weg</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een knooppunt waar uitwisseling van verkeer mogelijk is.</skos:definition>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Kruising"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Knooppunt"/>
+    <skos:exactMatch rdf:resource="http://ont.cbnl.org/cb/def/Kruispunt"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Uitwisselpunt Weg</skos:prefLabel>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N6a2b31a673b848b5bd5afa61b1d7fb9d">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf51"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5bd8be7010ef4660b551fa898231bd1f">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf14"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL825C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kruispunt">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruispunt</skos:prefLabel>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een Uitwisselpunt Weg waar gelijkvloerse uitwisseling van verkeer plaats kan vinden.</skos:definition>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Uitwisselpunt_weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.3.1.2 Kruispunt</rdfs:label>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Rotonde"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bouwdeel_NEN_2767-4_Oever">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.1.1.1 Bouwdeel (NEN 2767-4) Oever</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouwdeel (NEN 2767-4) Oever</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Element_NEN_2767-4_Oever"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bermbeplanting">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.3.1 Bermbeplanting</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N72a09c98c7e04bdfba01d0eed0b372bd"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Berm"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bermbeplanting</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL68C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8652679cb73a4b10949b95fbb031fa71">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegennet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1 Wegennet</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="Nd7022cd153dd4b5f91c13d5d395e3d33"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Netwerk dat wegverkeer faciliteert.</skos:definition>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Wegennet"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1128C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegennet</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie gebaseerd op CBNL</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Natuurlijke_overgangen">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/NatuurlijkeTerreinafscheiding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="N5314556e89d441749db1b34de64bc65a"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL575C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1.1 Natuurlijke overgangen</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Natuurlijke overgangen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Waterberging">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL982C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1.5 Waterberging</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N8652679cb73a4b10949b95fbb031fa71"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/WaterbergendGroen"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterberging</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Geluidscherm">
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Onderdeel van een civiel-technisch werk voor de infrastructuur van wegen, water, spoorbanen, waterkeringen en/of leidingen. De NEN 2767-4 decompositie wordt gevolgd, waarbij GELUIDWERENDE_VOORZIENING als Beheerobject is aangemaakt om het element 'geluidwerende constructie' van een bovenliggend beheerobject te voorzien. Geluidwerende voorzieningen worden als zelfstandige objecten beheerd en niet als element van bv bruggen of wegen (zoals in de NEN 2767-4 beschreven).</skos:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geluidscherm</skos:prefLabel>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie objectdefinitie BUDATA v3.4.1</skos:note>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.2 Geluidscherm</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="ub1bL410C19"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/GeluidsbeperkendeConstructie"/>
+    <rdfs:subClassOf rdf:nodeID="Nce2b933250054bf6ae20f191659816d2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL982C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Overige_voorzieningen">
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Voorziening"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Overige voorzieningen</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="ub1bL638C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="Nef1f62441b2c47358d9dc8a7f8884563"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4 Overige voorzieningen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL338C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#VRI-camera">
+    <rdfs:subClassOf rdf:nodeID="ub1bL783C19"/>
+    <rdfs:subClassOf rdf:nodeID="N2a7b3058ea6d4f93b8e175f2e7ea6433"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.1.1 VRI-camera</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Camera"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VRI-camera</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecologische_verbindingen">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecologische verbindingen</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N1f76a8a6b2ac4fb8a21d28ab4ddc4fcd"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.2 Ecologische verbindingen</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL300C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N847ccb3f787e40f989ab42e97ca3f414">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf25"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Schutsluis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf31">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Scheepvaartsein"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Scheepvaartsein_partof_Verkeersmanagementsysteem_Vaarweg</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3f977471556b4469895678c80b2cc3ed">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf42"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kruising">
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Uitwisselpunt_weg"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Knooppunt"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <skos:exactMatch rdf:resource="http://ont.cbnl.org/cb/def/Kruising"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een knooppunt waar twee of meer verkeersstromen elkaar gelijkvloers kruisen maar waar geen uitwisseling van verkeer plaatsvindt (bijvoorbeeld een fietspad dat een gebiedsontsluitingsweg kruist).</skos:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruising</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.3.2 Kruising</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vaarweg">
+    <rdfs:subClassOf rdf:nodeID="ub1bL807C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Vaarweg"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaarweg</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N539b9ed9fb7a4badae9b392eea6ff24a"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1 Vaarweg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N3bc64666c6c94246b097fc930178d359">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf34"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecopassages">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecopassages</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.2.1 Ecopassages</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N4dd00c2edeab4387b2b32f1fc7afadbe"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL326C19"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Habitats">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1.4 Habitats</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="Nbd31363fea51478aaa5cfabcdc26a640"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL445C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Habitats</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Biotoop"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Waterhuishouding">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waterhuishouding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL994C19"/>
+    <rdfs:subClassOf rdf:nodeID="N8cd2592c83d4467b87a9eb8b06fb4ec3"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_6 Waterhuishouding</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Riool">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_6.1 Riool</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="ub1bL685C19"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riool</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N3f977471556b4469895678c80b2cc3ed"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Rioolstelsel"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2443799241734b159558e59bb3a75a00">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf36"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beplanting langs Wegen, Vaarwegen en Terreinen</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Beplanting"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL54C19"/>
+    <rdfs:subClassOf rdf:nodeID="N7626a1714c6048bda59bf8193b1da908"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.3 Beplanting langs Wegen, Vaarwegen en Terreinen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N72a09c98c7e04bdfba01d0eed0b372bd">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf17"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N83b4182ac85a46398f910f11f0499d55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kolkleiding">
+    <rdfs:subClassOf rdf:nodeID="N746f9d55c7044d74ac8dd4755220db0f"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Leiding"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL514C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_6.4 Kolkleiding</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolkleiding</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf26">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+    <rdfs:label>Uitwisselpunt_Vaarweg_partof_Vaarwegennet</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Uitwisselpunt_Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf0938ebb372e4a868771a530886a8b8d">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf20"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nb4d2162cd5c7492bbb7827a9ec6e00bd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf4"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1020C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf15">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdfs:label>Waterhuishouding_partof_Provinciaal_systeem</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Geluidwerende_constructie">
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Geluidsscherm"/>
+    <rdfs:subClassOf rdf:nodeID="N37fabb2c10d54bdab19fe291918b2396"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een Geluidwerende Constructie is het Element niveau uit de NEN 2767-4. Het is een constructief deel van een Geluidwerende voorziening met gelijkblijvende eigenschappen (zoals hoogte en materiaal) van maximaal 100m lengte. Als een Geluidwerende constructie over een grotere lengte dan 100m uniform is, wordt het toch opgeknipt in delen om een conditiescore per 100m te kunnen bepalen.</skos:definition>
+    <rdfs:subClassOf rdf:nodeID="ub1bL424C19"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Objectdefinitie BUDATA v3.4.1</skos:note>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.2.1 Geluidwerende constructie (NEN 2767-4)</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geluidwerende constructie (NEN 2767-4)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Markering_en_belijning">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.2 Markering en belijning</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Markering en belijning</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersgeleiding"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf35">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Weginpassingsvoorzieningen_partof_Wegennet</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Bouwdeel_Geluidwerende_constructie_partof_Geluidwerende_constructie</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bouwdeel_Geluidwerende_constructie"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Geluidwerende_constructie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Camera_Vaarweg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Technische_Installaties_Vaarwegen"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camera Vaarweg</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.2 Camera Vaarweg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL514C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL242C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL287C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Rotonde">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Uitwisselpunt_weg"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rotonde</skos:prefLabel>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Kruispunt"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie CROW pub. 156, nomenclatuur van weg en verkeer</skos:note>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.3.1.1 Rotonde</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een verkeersplein waar het verkeer op het plein voorrang heeft, en waarop de wegen radiaal aansluiten.</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wachtplaats">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wachtplaats</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Vaarweg"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.3.2 Wachtplaats</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N41f85146271d41b293bdaa30db38eac4">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N746f9d55c7044d74ac8dd4755220db0f">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf12"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kabels_en_Leidingen">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kabels en Leidingen</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4.3 Kabels en Leidingen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4902c26cf6ea46ac852e3834dbd5c1b9">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf11"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf59">
+    <rdfs:label>Wegelement_Voetgangersverkeer_partof_Weg</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL609C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL313C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL24C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL879C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf11">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#DRIS-paneel"/>
+    <rdfs:label>DRIS-paneel_partof_Bushalte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f6334f957224e9abce834b1810dcfbc">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Voertuigkering">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.3 Voertuigkering</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL938C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Geleideconstructie"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Voertuigkering</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bermbeveiligingsconstructie of kerende leuning die tot doel heeft een gevarenzone af te schermen voor uit koers geraakte voertuigen. </skos:definition>
+    <rdfs:subClassOf rdf:nodeID="Ncb3922d10bd9467b902958ce1e5d65d9"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie RWS Objectenbibliotheek</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nce2b933250054bf6ae20f191659816d2">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf16"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL705C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL300C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kolk_en_put">
+    <rdfs:subClassOf rdf:nodeID="ub1bL502C19"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Rioolput"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_6.3 Kolk en put</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kolk en put</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N8f981ea5a9ba4360930d12dd8273f403"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#HeeftComfortcijfer">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rijstrook Fietsverkeer, Fietspadcomfortcijfer</rdfs:label>
+    <rdfs:range rdf:resource="http://eisen.noord-holland.nl#comfortCijfer"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL172C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_Vast_kunstwerk"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf44">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Kolk_en_put"/>
+    <rdfs:label>Kolk_en_put_partof_Waterhuishouding</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Draagkrachtige_berm">
+    <rdfs:subClassOf rdf:nodeID="N83b4182ac85a46398f910f11f0499d55"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.2 Draagkrachtige berm</rdfs:label>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draagkrachtige berm: zijberm met voldoende draagkracht voor een personenauto. Berm waarop een voertuig (personenauto) bestuurbaar blijft.</skos:definition>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draagkrachtige berm</skos:prefLabel>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie CROW pub. 328 Handboek wegontwerp 2013 - Basiscriteria</skos:note>
+    <rdfs:subClassOf rdf:nodeID="ub1bL260C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Berm"/>
+    <skos:changeNote rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veranderd van Constructieve berm om beter in lijn te zijn met CROW benaming</skos:changeNote>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf61">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Abri"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <rdfs:label>Abri_partof_Bushalte</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf39">
+    <rdfs:label>Technische_Installaties_Vaarwegen_partof_Verkeersmanagementsysteem_Vaarweg</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Technische_Installaties_Vaarwegen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg">
+    <rdfs:subClassOf rdf:nodeID="N5a7e4f7041974267a52ffd0e9eb0db81"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkeersmanagementsysteem Vaarweg</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL892C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2 Verkeersmanagementsysteem Vaarweg</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf32">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <rdfs:label>Wegelement_Fietsverkeer_partof_Weg</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1142C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf48">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Verkeersmanagementsysteem_Vaarweg_partof_Verkeersmanagementsysteem</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vluchthaven">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.1 Vluchthaven</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vluchthaven</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Vluchthaven"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf24">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Knooppunt"/>
+    <rdfs:label>Knooppunt_partof_Weg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf36">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Faunaraster"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Faunaraster_partof_Ecologische_verbindingszone</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecoduct">
+    <rdfs:subClassOf rdf:nodeID="N403a2312ea1840cc9d396d0a1e00668b"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.2.2 Ecoduct</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="ub1bL275C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecoduct</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Ecoduct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Wegverkeerssein_partof_Verkeersmanagementsysteem_Vaarweg</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegverkeerssein"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf55">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Ecologische_verbindingszone_partof_Ecologisch_netwerk</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Kunstwerk">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Kunstwerk"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL545C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7 Kunstwerk</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N9f430bca42334aa889adbebe4f50558f"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kunstwerk</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL54C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Natuurlijke_overgangen"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Natuurlijke_overgangen_partof_Ecologische_verbindingszone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf38">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <rdfs:label>Verkeersmanagementsysteem_Weg_partof_Verkeersmanagementsysteem</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Perron">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.3.1 Perron</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N2f6833a334994206b94ea5acffc2f1be"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Halte"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL658C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Perron</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf3">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Bouwdeel_Vast_kunstwerk_partof_Element_Vast_kunstwerk</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Element_Vast_kunstwerk"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bouwdeel_Vast_kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Weginpassingsvoorzieningen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2 Weginpassingsvoorzieningen</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N53becc47ffcc4dc5834a497e35bd3fa9"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Voorziening"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1142C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weginpassingsvoorzieningen</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N642fedf5deaf4c7f8e1eb6e2c5a0023b">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf32"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Weg">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1 Weg</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weg</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1006C19"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Registratief afgebakend gedeelte van een wegennet met gelijkblijvende samenstelling van Wegelement (rijstrook) en functie, waarbij de andere onderliggende objecten tot de Weg behoren.</skos:definition>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <rdfs:subClassOf rdf:nodeID="Nf0938ebb372e4a868771a530886a8b8d"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1f76a8a6b2ac4fb8a21d28ab4ddc4fcd">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL761C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer">
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1083C19"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een begrensd gedeelte van de Weg dat voldoende breed en hoog is voor Landbouwverkeer.</skos:definition>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Ventweg"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Autoverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="Nc97ffd44b8ac4e299b9d774b23390e08"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.4 Wegelement Landbouwverkeer</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Landbouwverkeer</skos:prefLabel>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf47">
+    <rdfs:label>Bouwdeel_Beweegbaar_kunstwerk_partof_Element_Beweegbaar_kunstwerk</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Element_Beweegbaar_kunstwerk"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bouwdeel_Beweegbaar_kunstwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL275C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL488C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf64">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Ecologische_verbindingen_partof_Ecologisch_netwerk</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verblijfspunt_Vaarweg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Functieruimte"/>
+    <rdfs:subClassOf rdf:nodeID="N44be58741a7b420f9066a445b2222ad7"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL849C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verblijfspunt Vaarweg</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.3 Verblijfspunt Vaarweg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nef1f62441b2c47358d9dc8a7f8884563">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf56"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1128C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Element_NEN_2767-4_Schutsluis">
+    <rdfs:subClassOf rdf:nodeID="ub1bL368C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.4.1 Element (NEN 2767-4) Schutsluis</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Element (NEN 2767-4) Schutsluis</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Schutsluis"/>
+    <rdfs:subClassOf rdf:nodeID="N847ccb3f787e40f989ab42e97ca3f414"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Knooppunt">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.3 Knooppunt</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="ub1bL488C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/OntmoetingVanVerkeer"/>
+    <rdfs:subClassOf rdf:nodeID="Na5e7d49bab8e4c3b94262fee4f05a823"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een locatie waar meerdere verkeersstromen elkaar gelijksvloers ontmoeten</skos:definition>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie Kennisgroep SE</skos:note>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Knooppunt</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL938C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Waterberging"/>
+    <rdfs:label>Waterberging_partof_Ecologische_verbindingszone</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Beplanting_langs_Wegen_Vaarwegen_en_Terreinen_partof_Ecologisch_netwerk</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bushalte">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Bushalte"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.3 Bushalte</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bushalte</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N85710ebef5204123b7282ca9a24aa364">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf59"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf57">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Wegennet_partof_Provinciaal_systeem</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL964C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL502C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Schutsluis_partof_Vaarwegennet</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Schutsluis"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecologisch_netwerk">
+    <rdfs:subClassOf rdf:nodeID="ub1bL287C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Netwerk"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecologisch netwerk</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3 Ecologisch netwerk</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N7f6334f957224e9abce834b1810dcfbc"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL398C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf56">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Overige_voorzieningen_partof_Provinciaal_systeem</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf4">
+    <rdfs:label>Verkeersmanagementsysteem_partof_Provinciaal_systeem</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL658C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf43">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Waarnemingssysteem_Wegverkeer"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Waarnemingssysteem_Wegverkeer_partof_Verkeersmanagementsysteem_Weg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#HeeftEis">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://eisen.noord-holland.nl#Vlot_en_Veilig"/>
+    <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HeeftEis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Terreinen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4.1 Terreinen</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Terreinen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7b8f3106948449169c955970be9a9c00">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf6"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Geluidwerende_constructie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL197C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf50">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Habitats"/>
+    <rdfs:label>Habitats_partof_Ecologische_verbindingszone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Busverkeer">
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Autoverkeer"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.2 Wegelement Busverkeer</rdfs:label>
+    <rdfs:subClassOf rdf:nodeID="N0bdf1e1e867043b8af9b9f9f8a291a68"/>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Voetgangersverkeer"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <owl:disjointWith rdf:resource="http://otb.noord-holland.nl#Wegelement_Fietsverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Defintie Kennisgroep SE</skos:note>
+    <rdfs:subClassOf rdf:nodeID="ub1bL1038C19"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een begrensd gedeelte van de Weg dat voldoende breed en hoog is voor Busverkeer.</skos:definition>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Autoweg"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Busverkeer</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bouwdeel_Geluidwerende_constructie">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.2.1.1 Bouwdeel (NEN 2767-4) Geluidwerende constructie</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Geluidsscherm"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouwdeel (NEN 2767-4) Geluidwerende constructie</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="N7b8f3106948449169c955970be9a9c00"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL141C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2a7b3058ea6d4f93b8e175f2e7ea6433">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N403a2312ea1840cc9d396d0a1e00668b">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf37"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vaarwegbodem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Vaarweg"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.2 Vaarwegbodem</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaarwegbodem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0b41237512fa4127bee43b6cc658b3cd">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf58"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Opstallen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4.2 Opstallen</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Opstallen</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL717C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL892C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Provinciaal_systeem">
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Systeem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Provinciaal systeem</skos:prefLabel>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een logisch samenwerkend geheel van provinciale fysieke objecten of van elkaar  afhankelijke provinciale fysieke objecten, die gezamenlijk een functie vervullen.</skos:definition>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Definitie gebaseerd op CBNL</skos:note>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_0 Provinciaal systeem</rdfs:label>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0.1</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf54">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecopassages"/>
+    <rdfs:label>Ecopassages_partof_Ecologische_verbindingen</rdfs:label>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf18">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Vaarweg"/>
+    <rdfs:label>Verblijfspunt_Vaarweg_partof_Vaarwegennet</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf1">
+    <rdfs:label>Draagkrachtige_berm_partof_Weg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Draagkrachtige_berm"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb58c40923ff4a33843c0ebe79f7f72f">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf3"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_Vast_kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf37">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecoduct"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+    <rdfs:label>Ecoduct_partof_Ecologische_verbindingen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf41">
+    <rdfs:label>Wegelement_Busverkeer_partof_Weg</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ncb3922d10bd9467b902958ce1e5d65d9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf63"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verkeersteller">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.1 Verkeersteller</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Dataverzamelsysteem"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkeersteller</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1153C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Ecotopen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1.3 Ecotopen</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Ruimte"/>
+    <rdfs:subClassOf rdf:nodeID="Nec86c895078140019d86c5fd131b049b"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL338C19"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ecotopen</skos:prefLabel>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N539b9ed9fb7a4badae9b392eea6ff24a">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf62"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Wegelement_Openbaar_Vervoer">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Wegelement_Busverkeer"/>
+    <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Een Weglement Busverkeer bestemd voor Openbaar Vervoer (OV)</skos:definition>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.1.2.2 Wegelement Openbaar Vervoer</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wegelement Openbaar Vervoer</skos:prefLabel>
+    <skos:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kennisgroep SE</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Gladheidsmeldsysteem">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.2 Gladheidsmeldsysteem</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Dataverzamelsysteem"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gladheidsmeldsysteem</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ndaa85d8cf9454bc59edac9a572d3704d">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9f430bca42334aa889adbebe4f50558f">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf49"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7a1217775b4147f7bd088dd2e3aebdd0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf38"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N135ded4d58204f8bb49885f28525113a">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vast_kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Abri">
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:subClassOf rdf:nodeID="N41f85146271d41b293bdaa30db38eac4"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.3.2 Abri</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abri</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Abri"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL24C19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf17">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Bermbeplanting_partof_Beplanting_langs_Wegen_Vaarwegen_en_Terreinen</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Bermbeplanting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf46">
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#VRI-camera"/>
+    <rdfs:label>VRI-camera_partof_VRI_Weg</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne3efb547f74448f3bdabfc72361c92a0">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf31"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7626a1714c6048bda59bf8193b1da908">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf60"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2f6833a334994206b94ea5acffc2f1be">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Bushalte"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf21"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N53becc47ffcc4dc5834a497e35bd3fa9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf35"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL129C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_Beweegbaar_kunstwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Need8ebe9cb4f464b8bfa4a2e9c943a6e">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf7"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Faunaraster">
+    <rdfs:subClassOf rdf:nodeID="N2443799241734b159558e59bb3a75a00"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL398C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Faunaraster"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Faunaraster</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_3.1.2 Faunaraster</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Waarnemingscamera_Wegverkeer">
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Camera"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL952C19"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.1.3.1 Waarnemingscamera Wegverkeer</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Waarnemingscamera Wegverkeer</skos:prefLabel>
+    <rdfs:subClassOf rdf:nodeID="Nefa45da1892c4387916beae655d52f5b"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Openbare_Verlichting">
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/OpenbareVerlichting"/>
+    <rdfs:subClassOf rdf:nodeID="N04ea6d1e466e49e7b49961b66cf49c66"/>
+    <rdfs:subClassOf rdf:nodeID="ub1bL621C19"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.4 Openbare Verlichting</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Openbare Verlichting</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL905C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Presentatiepaneel_matrix_Vaarwegen">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Informatievoorziening_DRIP_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Presentatiepaneel (matrix) Vaarwegen</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.1.2 Presentatiepaneel (matrix) Vaarwegen</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL424C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Geluidscherm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Detectielus_Verkeersteller">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detectielus Verkeersteller</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.1.3 Detectielus Verkeersteller</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersteller"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Kolkleiding_partof_Waterhuishouding</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Kolkleiding"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2ed8bcc33bff42468d06c5045706a551">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf23"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bewegwijzering">
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bewegwijzering</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersgeleiding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.1 Bewegwijzering</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Telpaal">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersteller"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Telpaal</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.5.1.2 Telpaal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL952C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waarnemingssysteem_Wegverkeer"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">onderdeelVan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Draagconstructie_matrixpaneel_Vaarwegen">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.1.3 Draagconstructie (matrixpaneel) Vaarwegen</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Draagconstructie (matrixpaneel) Vaarwegen</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Informatievoorziening_DRIP_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Parkeerplaats">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.2 Parkeerplaats</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parkeerplaats</skos:prefLabel>
+    <skos:relatedMatch rdf:resource="http://ont.cbnl.org/cb/def/Parkeerplaats"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Weg"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Parkeerplaats"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1056C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verkeersmanagementsysteem">
+    <rdfs:subClassOf rdf:nodeID="ub1bL879C19"/>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/top/def/Systeem"/>
+    <rdfs:subClassOf rdf:nodeID="Nb4d2162cd5c7492bbb7827a9ec6e00bd"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verkeersmanagementsysteem</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5 Verkeersmanagementsysteem</rdfs:label>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partOf</otb:relatieType>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf9">
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>VRI_Weg_partof_Verkeersmanagementsysteem_Weg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL368C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Schutsluis"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL350C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beweegbaar_kunstwerk"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Zwemwaterborden">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_4.5 Zwemwaterborden</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Overige_voorzieningen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zwemwaterborden</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bebakening_en_bebording">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersgeleiding"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bebakening en bebording</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.3 Bebakening en bebording</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Beweegbaar_kunstwerk"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Element_Beweegbaar_kunstwerk_partof_Beweegbaar_kunstwerk</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Element_Beweegbaar_kunstwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Bermplankjes">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verkeersgeleiding"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.2.1.4 Bermplankjes</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bermplankjes</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL380C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vast_kunstwerk"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Vaarweggeleiding">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_2.1.3 Vaarweggeleiding</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vaarweggeleiding</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Vaarweg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Verzorgingsplaats">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Verblijfspunt_Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_1.1.4.4 Verzorgingsplaats</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://ont.cbnl.org/cb/def/Verzorgingsplaats"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verzorgingsplaats</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1083C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf8">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Ecologisch_netwerk_partof_Provinciaal_systeem</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Ecologisch_netwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL326C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Beweegbaar_kunstwerk">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_7.2 Beweegbaar kunstwerk</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <otb:relatieType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">subclassOf</otb:relatieType>
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Kunstwerk"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beweegbaar kunstwerk</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N2cfc4202ec1945d7b1d164cd5622b1c5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf34">
+    <rdfs:label>Dataverzamelsysteem_partof_Weginpassingsvoorzieningen</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Dataverzamelsysteem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weginpassingsvoorzieningen"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1006C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Wegennet"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf50272ee28a4451eb4a776bb5b241193">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf52"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N27b82dc13a9e4e708bf39f820981e975">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf9"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Schutsluis"/>
+    <rdfs:label>Element_NEN_2767-4_Schutsluis_partof_Schutsluis</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Element_NEN_2767-4_Schutsluis"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL783C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#VRI_Weg"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf53">
+    <rdfs:label>Waarnemingscamera_Wegverkeer_partof_Waarnemingssysteem_Wegverkeer</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Waarnemingscamera_Wegverkeer"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Waarnemingssysteem_Wegverkeer"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na5e7d49bab8e4c3b94262fee4f05a823">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf24"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#Besturing_DBS_Vaarwegen">
+    <rdfs:subClassOf rdf:resource="http://otb.noord-holland.nl#Informatievoorziening_DRIP_Vaarweg"/>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Besturing (DBS) Vaarwegen</skos:prefLabel>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O_5.2.1.1.1 Besturing (DBS) Vaarwegen</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1038C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf49">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+    <rdfs:label>Kunstwerk_partof_Provinciaal_systeem</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Kunstwerk"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N37fabb2c10d54bdab19fe291918b2396">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf2"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Geluidscherm"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf42">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>Riool_partof_Waterhuishouding</rdfs:label>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Riool"/>
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl#partOf45">
+    <rdfs:subPropertyOf rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdfs:label>Wegelement_Landbouwverkeer_partof_Weg</rdfs:label>
+    <rdfs:domain rdf:resource="http://otb.noord-holland.nl#Wegelement_Landbouwverkeer"/>
+    <rdfs:range rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL795C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://otb.noord-holland.nl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL160C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Element_NEN_2767-4_Schutsluis"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL545C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL1110C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Weg"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL807C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbd31363fea51478aaa5cfabcdc26a640">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf50"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf7405013e6b14046996d91d937f482ec">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Vaarwegennet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL638C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5314556e89d441749db1b34de64bc65a">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingszone"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf29"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL141C19">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Geluidwerende_constructie"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd844cec4a8964e3a969bfd0c410ad077">
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beweegbaar_kunstwerk"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf13"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL994C19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Provinciaal_systeem"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N4dd00c2edeab4387b2b32f1fc7afadbe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf54"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Ecologische_verbindingen"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL728C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Verkeersmanagementsysteem_Vaarweg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL685C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Waterhuishouding"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub1bL68C19">
+    <owl:onProperty rdf:resource="http://otb.noord-holland.nl#partOf"/>
+    <owl:someValuesFrom rdf:resource="http://otb.noord-holland.nl#Beplanting_langs_Wegen_Vaarwegen_en_Terreinen"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+</rdf:RDF>
